@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-calendar-heatmap .color-empty {
+  fill: #ebedf0;
+}
+
+.dark .react-calendar-heatmap .color-empty {
+  fill: #2d3748;
+}
+
+.react-calendar-heatmap .color-scale-1 {
+  fill: #9BE9A8;
+}
+
+.react-calendar-heatmap .color-scale-2 {
+  fill: #40C463;
+}
+
+.react-calendar-heatmap .color-scale-3 {
+  fill: #30A14E;
+}
+
+.dark .react-calendar-heatmap .color-scale-1 {
+  fill: #0E4429;
+}
+
+.dark .react-calendar-heatmap .color-scale-2 {
+  fill: #006D32;
+}
+
+.dark .react-calendar-heatmap .color-scale-3 {
+  fill: #26A641;
+}
